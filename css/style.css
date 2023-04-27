@@ -1062,8 +1062,7 @@ h1 {
 
 /* event section */
 .event-container{
-  margin-top: 3rem;
-    margin-bottom: 3rem;
+  margin: 3rem 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
     gap: 20px;
@@ -1111,7 +1110,6 @@ h1 {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  margin-right: 20px;
 }
 
 .counter h3 {
@@ -1331,7 +1329,8 @@ h1 {
 .videos-container {
   display: flex;
   border: 1px solid #ddd;
-  margin: 3rem;
+  margin: 3rem 0;
+  width: 100%;
 }
 
 
