@@ -40,7 +40,9 @@
   .homeImage img {
     display: none;
   }
-
+.main-title{
+  font-size: 24px;
+}
   /* end of home section */
   /* work section */
   .work-info .work-card {
