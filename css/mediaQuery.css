@@ -1,0 +1,157 @@
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+
+
+  /* home section */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .nav-links {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .homeContent h1 {
+    font-size: 28px;
+  }
+
+  .homeContent p {
+    font-size: 18px;
+  }
+
+  .homeImage img {
+    display: none;
+  }
+
+  /* end of home section */
+  /* work section */
+  .work-info .work-card {
+    flex-direction: column;
+  }
+
+  .work-info .work-card img {
+    width: 64px;
+  }
+.work-card h2 ,
+.work-card p {
+  text-align: center;
+}
+  /* end of work section */
+  .event-container img:nth-child(1) {
+    display: none;
+  }
+
+  .event .container .dot-1,
+  .event .container .dot-2 {
+    display: none;
+  }
+
+  .subscribe form {
+    width: 100%;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.subscribe form input ,
+.subscribe form button {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  margin-left: 0;
+  -o-border-radius: 0;
+}
+.videos-container {
+  display: block;
+}
+.videos {
+  width: 100%;
+}
+.discounting{
+  display: block;
+}
+.discounting>div {
+  width: 100%;
+  
+}
+
+.discount-request input,
+.discount-request textarea{
+  width: 70%;
+}
+.content .social-links ,
+.important-links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .social-links p {
+  text-align: center;
+}
+.contact-box {
+  flex-direction: column;
+  align-items: center;
+}
+footer .images  {
+  text-align: center;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+            .videos-container {
+              display: block;
+            }
+      
+            .videos {
+              width: 100%;
+            }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+.videos-container {
+  display: flex;
+}
+
+.videos {
+  width: 35%;
+}
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
